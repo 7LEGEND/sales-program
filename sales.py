@@ -1,6 +1,6 @@
 def main():
  month_list = ['Juanary', 'February', 'March', 'April', 'May', 'June', 'July','August', 'September', 'October', 'November', 'December']
- #define a dictionary that will have the montha name and month sales
+ #define a dictionary that will have the month name and month sales
  dic={}
  for month_name in month_list:
   dic[month_name] = float(input('Enter the sales for '+month_name))
